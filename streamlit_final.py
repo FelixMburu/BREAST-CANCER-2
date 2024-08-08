@@ -42,7 +42,7 @@ class MyModel(nn.Module):
 
 # Load the model and ensure its architecture matches the one trained
 model = MyModel()
-model.load_state_dict(torch.load('/content/drive/My Drive/path_to_save_model2/best_model.pth'))
+model.load_state_dict(torch.load('best_model.pth'))
 model.eval()
 
 # Define a transform to preprocess the input images
