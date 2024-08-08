@@ -1,0 +1,8 @@
+streamlit
+torch==1.10.0+cpu
+torchvision==0.11.1+cpu
+numpy
+pandas
+Pillow
+matplotlib
+scikit-learn
